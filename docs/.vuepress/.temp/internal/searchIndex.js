@@ -7,6 +7,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [],
+    "path": "/home/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "leetcode",
     "headers": [
       {
@@ -23,13 +30,6 @@ export const searchIndex = [
       }
     ],
     "path": "/leetcode/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/home/",
     "pathLocale": "/",
     "extraFields": []
   },
