@@ -1,15 +1,8 @@
 export const searchIndex = [
   {
-    "title": "guide",
-    "headers": [],
-    "path": "/guide/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
-    "path": "/home/",
+    "path": "/diary/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -34,16 +27,37 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "guide",
+    "headers": [],
+    "path": "/guide/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
-    "path": "/software/",
+    "path": "/home/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "Vue",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "响应式原理",
+        "slug": "响应式原理",
+        "children": []
+      }
+    ],
     "path": "/vue/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/software/",
     "pathLocale": "/",
     "extraFields": []
   },

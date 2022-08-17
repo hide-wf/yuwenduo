@@ -17,7 +17,7 @@ module.exports = {
             },
             {
                 text: "说说",
-                link: "blog"
+                link: "/diary"
             },
             {
                 text: '软件',
