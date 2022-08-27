@@ -1,12 +1,5 @@
 export const searchIndex = [
   {
-    "title": "",
-    "headers": [],
-    "path": "/diary/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "leetcode",
     "headers": [
       {
@@ -34,9 +27,43 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "说说",
+    "headers": [
+      {
+        "level": 2,
+        "title": "2022",
+        "slug": "_2022",
+        "children": [
+          {
+            "level": 3,
+            "title": "2022-8-17",
+            "slug": "_2022-8-17",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2022-8-26",
+            "slug": "_2022-8-26",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/diary/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/home/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/software/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -51,13 +78,6 @@ export const searchIndex = [
       }
     ],
     "path": "/vue/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/software/",
     "pathLocale": "/",
     "extraFields": []
   },
